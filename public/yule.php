@@ -7,7 +7,7 @@
     $paramArr = array(
          'showapi_appid'=> $showapi_appid,
          'page'=> $_GET["page"],
-         'num'=> "10",
+         'num'=> "15",
          //添加其他参数
     );
      

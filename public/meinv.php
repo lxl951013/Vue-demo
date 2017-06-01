@@ -8,7 +8,7 @@
     $showapi_secret = 'a74bddd55a6b4514b42da70e5a32b925';
     $paramArr = array(
          'showapi_appid'=> $showapi_appid,
-         'num'=> "8",
+         'num'=> "15",
          'page'=> $_GET["page"],
          'rand'=> "1"
          //添加其他参数

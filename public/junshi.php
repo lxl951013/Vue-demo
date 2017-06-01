@@ -13,7 +13,7 @@
          'needContent'=> "0",
          'needHtml'=> "0",
          'needAllList'=> "0",
-         'maxResult'=> "8"
+         'maxResult'=> "15"
          //添加其他参数
     );
      
