@@ -1,60 +1,47 @@
-# Vue
+<p><img width="150" src="https://stjw7098.github.io/vue-demo/img/cnode.jpg"></p>
 
-## Vue文档
-| Article | |
-| --------- | --------- |
-|[Vue-cli脚手架](https://github.com/Wscats/vue-demo/issues/2)|[Vue组件](https://github.com/Wscats/vue-demo/issues/3)|
-|[vue自定义指令](https://github.com/Wscats/vue-demo/issues/8)|[Vue过渡动画](https://github.com/Wscats/vue-demo/issues/9)|
-|[Vue指令](https://github.com/Wscats/vue-demo/issues/7)|[Vue api文档](https://github.com/Wscats/vue-demo/issues/6)|
-|[Vue执行ajax请求](https://github.com/Wscats/vue-demo/issues/5)|[vue实现类似angular服务的方法](https://github.com/Wscats/vue-demo/issues/4)|
-|[Vue源码参考文档](https://github.com/Wscats/vue-demo/issues/10)||
+<h1>CNode App</h1>
 
-## AppDemo
-| Demo | |
-| --------- | --------- |
-|[新闻列表DEMO(1)](https://wscats.github.io/vue-demo/新闻列表.html)|[新闻列表DEMO(2)](https://wscats.github.io/vue-demo/news/index.html)|
-|[图灵机器人](https://wscats.github.io/vue-demo/图灵机器人.html)|[vue生命周期](https://wscats.github.io/vue-demo/vue生命周期.html)|
+<p>
+  <strong>此vue-cnode是一个使用 vue2.0,vue-router,vuex,各种loader插件 和 webpack 打包的 html5 web 应用, 使用 ES6 进行编写,并使用了缓存以及懒加载等技术. 后端使用的是 cnodejs社区 提供的API. </strong>,
+  <a href="https://lxl951013.github.io/vue-demo/public/#/index/list">Live Demo</a>
+</p>
 
-## 路由
-| Controller | | |
-| --------- | --------- | --------- |
-|[路由(v1)demo](https://wscats.github.io/vue-demo/路由.html)|[路由(v1)demo2](https://wscats.github.io/vue-demo/路由2.html)|[路由(v2)实例demo](https://wscats.github.io/vue-demo/vue-router2/news.html)|
+<p>
+  <sub>作者 ❤︎ 
+    <a href="https://github.com/lxl951013">xilong</a>
+  </sub>
+</p>
 
 
-## 指令
-| Directive | | |
-| --------- | --------- | --------- |
-|[指令demo](https://wscats.github.io/vue-demo/指令.html)|[自定义指令demo](https://wscats.github.io/vue-demo/自定义指令.html)|[滑动手势demo](https://wscats.github.io/vue-demo/滑动手势指令.html)|
+
+</div>
 
 
-## 过滤器
-| Filter ||
-| --------- | --------- |
-|[过滤器demo](https://wscats.github.io/vue-demo/过滤器.html)|[过滤器实现分页demo](https://wscats.github.io/vue-demo/vue使用过滤器实现分页.html)|
-|[过滤器读写数据](https://wscats.github.io/vue-demo/vue过滤器读写数据.html)|[自定义搜索关键词高亮](https://wscats.github.io/vue-demo/自定义搜索关键词高亮.html)|
+## 安装(Git)
+                                                                              
+克隆项目地址并下载（需要已安装[Git](https://git-scm.com/downloads)），[点击预览（移动端效果更佳）](https://stjw7098.github.io/vue-demo/public/#/index/list)
+```
+git clone git@github.com:lxl951013/all-project.git
 
-## 过渡
-| Transition | |
-| --------- | --------- |
-|[过渡demo](https://wscats.github.io/vue-demo/过渡.html)|[过渡demo2](https://wscats.github.io/vue-demo/过渡2.html)|
+```
+定位到public文件夹，在浏览器打开index.html
+```
+cd public
+//浏览器打开
+http://localhost:54123
+```
 
-## 表单
-| Form |
-| --------- |
-|[获取表单值](https://wscats.github.io/vue-demo/vue获取表单值.html)|
+## 建立
+通过`npm`安装本地服务第三方依赖模块（需要已安装[Node.js](https://nodejs.org/)），建议使用`cnpm`安装依赖的模块
+```
+cnpm install
+```
+启动服务器（http://localhost:54123）
+```
+webpack-dev-server开启服务器监听
+```
 
-## 计算
-| Computed |
-| --------- |
-|[计算属性](https://wscats.github.io/vue-demo/vue计算属性.html)|
 
-## 组件
-| Component ||
-| --------- | --------- |
-|[组件demo](https://wscats.github.io/vue-demo/组件.html)|[点击预览大图](https://wscats.github.io/vue-demo/预览图片.html)|
-|[新闻列表DEMO](https://wscats.github.io/vue-demo/新闻列表.html)||
 
-## Vuex
-| Vuex |
-| --------- |
-|[Vuex组件间的通信](https://wscats.github.io/vue-demo/vuex组件间的通信demo.html)|
+

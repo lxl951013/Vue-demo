@@ -55,9 +55,11 @@
            	  console.log(this.JunshiId);
            	 $.ajax({
 					type: "GET",
-					url: "http://localhost/vueproject/public/junshi.php",
+					url: "http://route.showapi.com/109-35",
 					data: {
-						page: this.page
+						page: this.page,
+						showapi_appid:'38661',
+						showapi_sign:'c5f46ae5d7634a4ab327ef4c5866069a'
 					},
 					dataType: "json",
 					success: function(data) {

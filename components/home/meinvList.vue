@@ -50,9 +50,12 @@
 				this.isShowLoading += 1
 				$.ajax({
 					type: "GET",
-					url: "http://localhost/vueproject/public/meinv.php",
+					url: "http://route.showapi.com/197-1",
 					data: {
-						page: this.page
+						page: this.page,
+						showapi_appid:'36273',
+						showapi_sign:'a74bddd55a6b4514b42da70e5a32b925',
+						num:'15'
 					},
 					dataType: "json",
 					success: function(data) {
